@@ -2,7 +2,7 @@
 title: Contributing
 description: Editing rules, access, and version checks.
 published: true
-date: 2026-10-13T05:03:42.627Z
+date: 2026-11-04T00:49:35.467Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-13T05:03:39.043Z
@@ -30,16 +30,10 @@ Maintainers control `sdk/api/` and the page templates.
 - Do not publish passwords, private logs, or other people's email addresses.
 - Do not copy another project's full documentation without permission.
 
-Edits publish immediately. There is no approval queue in this version.
+Edits publish immediately.
 Moderators can compare revisions and restore an earlier version.
 
 ## Templates
 
 - [Function page template](/en/templates/function)
 - [Table field template](/en/templates/table-field)
-
-## Notifications
-
-Discord alerts will use a private Git content repository and a GitHub webhook.
-That connection needs repository credentials and a Discord channel webhook.
-It is not connected in this local preview. Alerts will follow Git synchronization, not each immediate save.
